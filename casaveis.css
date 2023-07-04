@@ -1,0 +1,49 @@
+main
+{
+	width: 940px;
+	margin: 75px auto;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.titulo_solteiros
+{
+	padding: 5px;
+	margin-top: 30px;
+	color: white;
+	background: rgba(0, 100, 0, 1.0);
+	font-size: 20px;
+}
+
+nav
+{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+nav a
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	text-align: center;
+	margin: 10px;
+	font-size: 18px;
+	text-decoration: none;
+	color: #00009C;
+}
+
+nav a img
+{
+	margin-bottom: 4px;
+	width: 100px;
+	height: 100px;
+	transition: 0.3s all;
+}
+
+nav a img:hover
+{
+	width: 125px;
+	height: 125px;
+}

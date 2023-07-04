@@ -1,0 +1,247 @@
+main
+{
+	width: 940px;
+	margin: 75px auto;
+	background-color: rgba(255, 255, 255, 0.4);
+	border-radius: 15px;
+}
+
+.primeira_parte
+{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.introducao
+{
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 10px;
+	width: 400px;
+	margin: 30px;
+	font-size: 15px;
+	text-align: justify;
+	border: 2px solid rgba(0, 0, 0, 0.6);
+	color: #00009C;
+}
+
+
+
+.introducao p
+{
+	margin-top: 40px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 40px;
+}
+
+.sobre
+{
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 10px;
+	width: 300px;
+	font-size: 15px;
+	text-align: center;
+	border: 2px solid rgba(0, 0, 0, 0.6);
+	margin: 30px;
+	color: #00009C;
+}
+
+.sobre ul
+{
+	margin: 5px;
+}
+.sobre ul li
+{
+	margin: 3px;
+}
+
+
+.subtitulo
+{
+	font-size: 20px;
+	background: rgba(0, 100, 0, 1.0);
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	text-align: center;
+	color: white;
+}
+
+.segunda_parte
+{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.villagers
+{
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 10px;
+	width: 230px;
+	height: 205px;
+	font-size: 15px;
+	text-align: center;
+	margin: 15px;
+	border: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.villagers nav
+{
+	display: flex;
+	flex-direction: column;
+	margin: 5px;
+}
+
+.villagers nav a
+{
+	margin: 3px;
+	text-decoration: none;
+	color: #00009C;
+}
+
+.villagers nav a img
+{
+	width: 25px;
+	height: 25px;
+}
+
+.items
+{
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 10px;
+	width: 400px;
+	font-size: 15px;
+	text-align: center;
+	margin: 15px;
+	border: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.items nav
+{
+	display: flex;
+	flex-direction: column;
+	margin: 5px;
+}
+
+.items nav a
+{
+	margin: 2px;
+	color: #00009C;
+}
+
+.items nav a img
+{
+	width: 25px;
+	height: 25px;
+}
+
+.seasons
+{
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 10px;
+	width: 230px;
+	height: 180px;
+	font-size: 15px;
+	text-align: center;
+	margin: 15px;
+	border: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.seasons nav
+{
+	display: flex;
+	flex-direction: column;
+	margin: 5px;
+}
+
+.seasons nav a
+{
+	margin: 3px;
+	color: #00009C;
+}
+
+.seasons nav a img
+{
+	width: 25px;
+	height: 25px;
+}
+
+.terceira_parte
+{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.a_vila
+{
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 10px;
+	width: 500px;
+	font-size: 15px;
+	text-align: center;
+	border: 2px solid rgba(0, 0, 0, 0.6);
+	margin: 30px;
+	color: #00009C;
+}
+
+.locais
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.a_vila nav
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin: 5px;
+}
+
+.a_vila nav a
+{
+	margin: 3px;
+}
+
+.a_vila nav a img
+{
+	width: 25px;
+	height: 25px;
+}
+
+.ocume
+{
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 10px;
+	width: 180px;
+	height: 235px;
+	font-size: 15px;
+	text-align: center;
+	border: 2px solid rgba(0, 0, 0, 0.6);
+	margin: 30px;
+	color: #00009C;
+}
+
+.locaiscume nav
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin: 5px;
+}
+
+.locaiscume nav a
+{
+	margin: 3px;
+}
+
+.locaiscume nav a img
+{
+	width: 25px;
+	height: 25px;
+}

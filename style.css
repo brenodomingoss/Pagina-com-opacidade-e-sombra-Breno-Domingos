@@ -1,0 +1,118 @@
+body
+{
+	background-image: url("Wallpaper.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.caixa
+{
+	position: relative;
+	width: 940px;
+}
+
+.caixa2
+{
+	position: absolute;
+	width: 18%;
+	left: 20px;
+	top: 0;
+	left: 30px;
+}
+
+.icon
+{
+	width: 200%;
+}
+
+.caixa3
+{
+	position: absolute;
+	top: 115px;
+	left: 125px;
+}
+
+.caixa4
+{
+	position: absolute;
+	top: 170px;
+	left: 19em;
+	background: #fbd083;
+	border: #e88a4e solid 6px;
+	font-size: 200%;
+	text-align: center;
+	width: 75%;
+}
+
+.inicio
+{
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black, -1px -1px 1px black;
+	color: #e88a4e;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+
+.criador
+{
+	color: red;
+	font-style: italic;
+}
+
+footer
+{
+	width: 940px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, 0.4);
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	display: flex;
+	justify-items: center;
+	border: 5px solid rgba(0, 100, 0, 1.0);
+	align-items: center;
+}
+
+footer p
+{
+	font-size: 20px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: justify;
+	position: relative;
+}
+
+footer a
+{
+	text-align: center;
+	text-decoration: none;
+	Color: #e88a4e;
+	text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black, -1px -1px 1px black;
+	font-size: 40px;
+	font-weight: bold;
+}
+.contato
+{
+	text-align: center;
+	margin: 20px;
+	position: relative;
+}
+
+.contatos
+{
+	width: 450px;
+}
+
+.textinho
+{
+	position: absolute;
+	top: 170px;
+	left: 135px;
+}

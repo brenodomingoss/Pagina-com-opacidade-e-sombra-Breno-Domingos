@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="contatos.css">
+	<title>Contato Wiki - Entre em Contato</title>
+</head>
+<body>
+	<header>
+		<div class="caixa">
+			<img class="banner" src="Banner Stardew Valley.png">
+			<div class="caixa4">
+				<h1 class="titulo">RIDGESIDE VILLAGE -  WIKI PORTUGUÊS</h1>
+			</div>
+			<div class="caixa2">
+				<img class="icon" src="Icon.png">
+				<div class="caixa3">
+					<a class="inicio" href="index.html">Inicio</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<h1 class="titulo_contato">Localização da nossa sede, para contato.</h1>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3755.858323274442!2d-47.96034872422858!3d-19.7186550816228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bad18160f7b4d3%3A0x5d0c29cbc9d3e469!2sIFTM%20-%20Campus%20Uberaba%20Parque%20Tecnol%C3%B3gico!5e0!3m2!1spt-BR!2sbr!4v1688498410402!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<h1 class="titulo_contato">Contatos</h1>
+		<form>
+			<label for="nomesobrenome">Nome Completo</label>
+			<input type="text" id="nomesobrenome">
+
+			<label for="email">Email</label>
+			<input type="text" id="email">
+
+			<label for="telefone">Telefone</label>
+			<input type="text" id="telefone">
+
+			<label for="mensagem">Mensagem</label>
+			<textarea cols="70" rows="10" id="mensagem"></textarea>
+
+			<label>Você gostaria de receber o retorno da mensagem?</label>
+			<div class="simnao">
+				<input type="radio" name="simnao" value="opcao1"><p> Sim</p>
+				<input type="radio" name="simnao" value="opcao2"><p>Não</p>
+			</div>
+			<label>Se sim, como gostaria que entrássemos em contato?</label>
+			<select>
+				<option>Email</option>
+				<option>Telefone</option>
+			</select>
+
+			<label><input type="checkbox" name="ok">Gostaria de receber novidades sobre o mod?</label>
+
+			<input type="submit" class="enviar">
+		</form>
+	</main>
+</body>
+</html>
